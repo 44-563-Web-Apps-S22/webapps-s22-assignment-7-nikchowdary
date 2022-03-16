@@ -16,85 +16,87 @@
     <h2>Bird Hunt by Nikhilchowdary</h2>
     <br>
     <div  class="container-fluid ">
-      <div class="btn btn-primary">Click on the squares to search for bird</div>
-      <div class="btn btn-secondary" id="shakes"> Number of shakes is zero</div>
+      <div class="btn btn-danger">Click on the squares to search for bird</div>
+      <div class="btn btn-info" id="shakes"> Number of shakes is zero</div>
       <div class="btn btn-success" id="score"> Location score is unknown</div>
     </div>
     <br>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
+            <div class="col-sm-2 len"><img onclick="check(0)" id="i0" src="bush.jpg" alt="bush">
             </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
+            <div class="col-sm-2 len"><img onclick="check(1)" id="i1" src="bush.jpg" alt="bush">
             </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
+            <div class="col-sm-2 len"><img onclick="check(2)" id="i2" src="bush.jpg" alt="bush">
             </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
+            <div class="col-sm-2 len"><img onclick="check(3)" id="i3" src="bush.jpg" alt="bush">
             </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
+            <div class="col-sm-2 len"><img onclick="check(4)" id="i4" src="bush.jpg" alt="bush">
             </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 len"><img onclick="check(5)" id="i5" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(6)" id="i6" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(7)" id="i7" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(8)" id="i8" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(9)" id="i9" src="bush.jpg" alt="bush">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 len"><img onclick="check(10)" id="i10" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(11)" id="i11" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(12)" id="i12" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(13)" id="i13" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(14)" id="i14" src="bush.jpg" alt="bush">
+            </div>
+            <!-- <button type="button" onclick="reload()" class="col-sm-2 btn btn-primary btt">New game </button> -->
+          </div>
+          <div class="row">
+            <div class="col-sm-2 len"><img onclick="check(15)" id="i15" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(16)" id="i16" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(17)" id="i17" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(18)" id="i18" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(19)" id="i19" src="bush.jpg" alt="bush">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 len"><img onclick="check(20)" id="i20" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(21)" id="i21" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(22)" id="i22" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(23)" id="i23" src="bush.jpg" alt="bush">
+            </div>
+            <div class="col-sm-2 len"><img onclick="check(24)" id="i24" src="bush.jpg" alt="bush">
+            </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-            <div class="col-sm-2 len"><img src="bush.jpg" alt="bush" >
-            </div>
-        </div>
-    </div>
+      
     <script>
         let ids = ["i0", "i1", "i2", "i3", "i4", "i5", "i6", "i7", "i8", "i9", "i10", "i11", "i12", "i13", "i14", "i15", "i16", "i17", "i18", "i19", "i20", "i21", "i22", "i23", "i24"]
         let shakeCount = 0
-        let birdLocation = Math.floor(Math.random() * 25),score
+        let birdLocation = 18
     
         function check(position) {
          let id = ids[position]
          let img_pos = document.getElementById(id)
           if (position == birdLocation)
-            img_pos.src = "Tree.jpeg"
+            img_pos.src = "blackswift.jpg"
           else
-            img_pos.src = "nest.jpg"
+            img_pos.src = "nest.png"
     
           shakeCount++
           document.getElementById("shakes").innerHTML = "Number of shakes is " + shakeCount;
