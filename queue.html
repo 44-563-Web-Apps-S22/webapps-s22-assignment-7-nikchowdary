@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Builds a reversed queue</title>
+	<title>builds a reversed queue</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -93,22 +93,7 @@
 		}
 	}
 
-	function retUnique(){
-	var queueItems = document.getElementsByClassName("queue")
-	var lent=queueItems.length
-    for(let i=0;i<lent;i++){
-		for(let j=i+1;j<lent;j++){
-			
-			if(queueItems[i].innerHTML==queueItems[j].innerHTML){
-			
-				queueItems[j].remove()
-				lent--;
-				j--;
-			}
 
-		}
-	}
-}
 </script>
 
 </html>
